@@ -1,4 +1,4 @@
-# Supervised Machine Learning: Regression
+# Regression Overview
 
 ## Workflow
 
