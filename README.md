@@ -3,7 +3,7 @@
 
 ## Content
 ### Supervised Machine Learning
-#### Regression
+#### [Regression]
 * Linear Regression
 * Logistic Regression
 * Polynomial Regression
