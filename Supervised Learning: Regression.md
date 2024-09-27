@@ -1,8 +1,6 @@
-### Guide to Supervised Machine Learning Analysis with Regression
+# Supervised Machine Learning: Regression
 
-Supervised machine learning with regression is a powerful tool for predicting a continuous outcome variable based on one or more features.
-
----
+## Workflow
 
 ### 1. **Data Requirements**
 
