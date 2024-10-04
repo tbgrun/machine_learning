@@ -1,4 +1,4 @@
-# Overview in Supervised Machine Learning with Classifiers
+# Supervised Machine Learning
 Supervised machine learning involves training a model on a labeled dataset, where the target variable is known. The goal is to predict the target variable for unseen data.
 
 ## Workflow
