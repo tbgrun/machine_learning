@@ -39,53 +39,53 @@ For classification, it's important to have a balanced dataset, where each class 
 
 ---
 
-3. Data Cleaning
-Cleaning the data ensures that it is in a suitable format for model training!
-1.	Handling Missing Data:
-o	Remove: Drop rows or columns with a high percentage of missing values.
-o	Impute: Replace missing values with statistical measures like mean, median, or mode, or use more advanced techniques like KNN or MICE imputation.
-2.	Outlier Treatment:
-o	Removal: Remove extreme outliers if they are due to data entry errors.
-o	Transformation: Apply transformations like log, square root, or box-cox to reduce the impact of outliers.
-3.	Encoding Categorical Variables:
-o	Label Encoding: Assign a unique number to each category (suitable for ordinal data).
-o	One-Hot Encoding: Convert categorical variables into binary columns (suitable for nominal data).
-4.	Feature Engineering:
-o	Interaction Terms: Create new features by combining existing ones (e.g., multiplication, division).
-o	Polynomial Features: Create polynomial combinations of features to capture non-linear relationships.
-o	Binning: Grouping continuous variables into discrete bins.
-________________________________________
-4. Choosing the Correct Model
-Choosing the right model depends on the nature of your data, the problem at hand, and your specific goals. Here's a breakdown of some common classifiers:
-1.	Logistic Regression:
-o	Use case: When the relationship between the features and the target variable is approximately linear.
-o	Pros: Simple to implement, interpretable coefficients.
-o	Cons: Assumes linearity, sensitive to outliers.
-2.	Decision Trees:
-o	Use case: When you need an interpretable model that can capture non-linear relationships.
-o	Pros: Easy to interpret, handles both numerical and categorical data.
-o	Cons: Prone to overfitting, especially with deep trees.
-3.	Random Forest:
-o	Use case: When you need a robust, high-performance model that handles non-linear relationships.
-o	Pros: Reduces overfitting by averaging multiple trees, handles missing data well.
-o	Cons: Less interpretable, computationally expensive.
-4.	Support Vector Machines (SVM):
-o	Use case: When your data has clear margins of separation between classes.
-o	Pros: Effective in high-dimensional spaces, robust to overfitting with proper regularization.
-o	Cons: Computationally expensive, especially with large datasets.
-5.	k-Nearest Neighbors (k-NN):
-o	Use case: When you have a small dataset and don't require interpretability.
-o	Pros: Simple, no training phase.
-o	Cons: Sensitive to noisy data, computationally expensive during prediction.
-6.	Naive Bayes:
-o	Use case: When your features are independent, or in text classification problems.
-o	Pros: Fast, works well with small datasets and text data.
-o	Cons: Assumes feature independence, which is often unrealistic.
-7.	Ensemble Methods:
-o	Bagging (e.g., Random Forest): Combines multiple weak models (like decision trees) to reduce variance.
-o	Boosting (e.g., AdaBoost, XGBoost, Gradient Boosting): Focuses on correcting the errors of previous models by adding models sequentially.
-o	Stacking: Combines multiple models by training a meta-model on the predictions of the base models.
-o	Use case: When you need to improve model performance by combining the strengths of multiple models. Pros: Often leads to superior performance, reduces bias or variance depending on the method. Cons: Complex, harder to interpret.
+### 3. Data Cleaning
+#### 3.1.	Handling Missing Data
+  - **Remove**: Drop rows or columns with a high percentage of missing values.
+  - **Impute:** Replace missing values with statistical measures like mean, median, or mode, or use more advanced techniques like KNN or MICE imputation.
+#### 3.2.	Outlier Treatment
+  - **Removal:** Remove extreme outliers if they are due to data entry errors.
+  - **Transformation:** Apply transformations like log, square root, or box-cox to reduce the impact of outliers.
+#### 3.3.	Encoding Categorical Variables
+  - **Label Encoding:** Assign a unique number to each category (suitable for ordinal data).
+  - **One-Hot Encoding:** Convert categorical variables into binary columns (suitable for nominal data).
+#### 3.4.	Feature Engineering:
+  - **Interaction Terms:** Create new features by combining existing ones (e.g., multiplication, division).
+  - **Polynomial Features:** Create polynomial combinations of features to capture non-linear relationships.
+  - **Binning:** Grouping continuous variables into discrete bins.
+
+---
+
+### 4. Choosing the Correct Model
+#### 4.1.	Logistic Regression
+  - **Use case:** When the relationship between the features and the target variable is approximately linear.
+  - **Pros:** Simple to implement, interpretable coefficients.
+  - **Cons:** Assumes linearity, sensitive to outliers.
+#### 4.2.	Decision Trees
+  - **Use case:** When you need an interpretable model that can capture non-linear relationships.
+  - **Pros:** Easy to interpret, handles both numerical and categorical data.
+  - **Cons:** Prone to overfitting, especially with deep trees.
+#### 4.3.	Random Forest
+  - **Use case:** When you need a robust, high-performance model that handles non-linear relationships.
+  - **Pros:** Reduces overfitting by averaging multiple trees, handles missing data well.
+  - **Cons:** Less interpretable, computationally expensive.
+#### 4.4.	Support Vector Machines (SVM)
+  - **Use case:** When your data has clear margins of separation between classes.
+  - **Pros:** Effective in high-dimensional spaces, robust to overfitting with proper regularization.
+  - **Cons:** Computationally expensive, especially with large datasets.
+#### 4.5.	k-Nearest Neighbors (k-NN)
+  - **Use case:** When you have a small dataset and don't require interpretability.
+  - **Pros:** Simple, no training phase.
+  - **Cons:** Sensitive to noisy data, computationally expensive during prediction.
+#### 4.6.	Naive Bayes
+  - **Use case:** When your features are independent, or in text classification problems.
+  - **Pros:** Fast, works well with small datasets and text data.
+  - **Cons:** Assumes feature independence, which is often unrealistic.
+#### 4.7.	Ensemble Methods
+  - **Bagging** (e.g., Random Forest): Combines multiple weak models (like decision trees) to reduce variance.
+  - **Boosting** (e.g., AdaBoost, XGBoost, Gradient Boosting): Focuses on correcting the errors of previous models by adding models sequentially.
+  - **Stacking:** Combines multiple models by training a meta-model on the predictions of the base models.
+  - **Use case:** When you need to improve model performance by combining the strengths of multiple models. Pros: Often leads to superior performance, reduces bias or variance depending on the method. Cons: Complex, harder to interpret.
 ________________________________________
 5. Model Training
 1.	Splitting the Data:
