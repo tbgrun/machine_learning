@@ -3,7 +3,7 @@
 
 ## Content
 ### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/01%20-%20Supervised%20Machine%20Learning.md)
-#### [Regression](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/Regression%20Overview.md)
+#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/02%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/Linear%20Regression.md)
 * Logistic Regression
 * Polynomial Regression
