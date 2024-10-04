@@ -155,12 +155,3 @@ For classification, it's important to have a balanced dataset, where each class 
 #### 9.3.	Monitoring
   - Continuously monitor the model's performance in production to detect any drift in data or decrease in performance over time.
   - Retrain the model periodically with new data if necessary.
-________________________________________
-10. Documentation and Reporting
-Finally, document the entire process and report the findings:
-1.	Documentation:
-o	Record all steps, including data preprocessing, feature engineering, model selection, hyperparameter tuning, and performance evaluation.
-o	Keep track of all versions of the data, code, and models.
-2.	Reporting:
-o	Present the results using clear visualizations and metrics.
-o	Explain the model's predictions, the importance of features, and any limitations.
