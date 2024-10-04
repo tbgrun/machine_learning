@@ -86,20 +86,26 @@ For classification, it's important to have a balanced dataset, where each class 
   - **Boosting** (e.g., AdaBoost, XGBoost, Gradient Boosting): Focuses on correcting the errors of previous models by adding models sequentially.
   - **Stacking:** Combines multiple models by training a meta-model on the predictions of the base models.
   - **Use case:** When you need to improve model performance by combining the strengths of multiple models. Pros: Often leads to superior performance, reduces bias or variance depending on the method. Cons: Complex, harder to interpret.
-________________________________________
-5. Model Training
-1.	Splitting the Data:
-o	Training Set: 70-80% of the data for training the model.
-o	Validation Set: 10-15% of the data for tuning hyperparameters.
-o	Test Set: 10-15% of the data for evaluating the model's final performance.
-2.	Model Training:
-o	Fit the model on the training data.
-o	Use cross-validation (e.g., k-fold cross-validation) to ensure the model generalizes well to unseen data.
-o	Tune hyperparameters using Grid Search or Random Search on the validation set.
-3.	Hyperparameter Tuning:
-o	Use methods like Grid Search, Random Search, or Bayesian Optimization to find the best hyperparameters.
-o	Evaluate each combination using cross-validation.
-________________________________________
+
+---
+
+### 5. Model Training
+#### 5.1.	Splitting the Data
+  - **Training Set:** 70-80% of the data for training the model.
+  - **Validation Set:** 10-15% of the data for tuning hyperparameters.
+  - **Test Set:** 10-15% of the data for evaluating the model's final performance.
+#### 5.2.	Model Training
+  - **Fit the model** on the training data.
+  - **Use cross-validation** (e.g., k-fold cross-validation) to ensure the model generalizes well to unseen data.
+  - **Tune hyperparameters** on the validation set.
+    - Grid Search
+    - Random Search
+    - Bayesian Optimization
+#### 5.3.	Evaluate
+  - Evaluate each combination using cross-validation.
+
+---
+
 6. Performance Metrics
 1.	Accuracy:
 o	The proportion of correct predictions out of the total predictions.
