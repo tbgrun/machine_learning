@@ -57,7 +57,7 @@ For classification, it's important to have a balanced dataset, where each class 
 ---
 
 ### 4. Choosing the Correct Model
-#### 4.1 [**Linear Regression**](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/Linear%20Regression.md)
+#### 4.1 [**Linear Regression**](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/02.01%20-%20Linear%20Regression.md)
   - **Best for**: When the relationship between features and the target is linear.
   - **Pros**: Simple, interpretable.
   - **Cons**: Sensitive to outliers, assumes linearity.
