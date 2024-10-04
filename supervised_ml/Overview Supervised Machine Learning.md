@@ -4,35 +4,41 @@ Supervised machine learning involves training a model on a labeled dataset, wher
 ## Workflow
 
 ### 1. Data Requirements
-#### 1.1 Labeled Data:
+#### 1.1 Labeled Data
 Supervised learning requires a dataset with input features (X) and a target variable (y). For classification tasks, the target variable should be categorical.
-#### 1.2 No Missing Values (NaN):
+#### 1.2 No Missing Values (NaN)
 Machine learning algorithms do not handle missing values well, they need to be eliminated:
   - **Removing** rows or columns with missing values.
   - **Imputing** missing values using techniques like mean, median, mode, or more advanced methods like KNN imputation.
-#### 1.3 Balanced Data:
+#### 1.3 Balanced Data
 For classification, it's important to have a balanced dataset, where each class is equally represented. If the dataset is imbalanced, use a stratified approach in the model, or use:
   - **Resampling techniques:** Over-sampling the minority class (e.g., SMOTE) or under-sampling the majority class.
   - **Adjusting model evaluation metrics:** Metrics like accuracy might be misleading with imbalanced data, so metrics like Precision, Recall, F1-Score, and ROC-AUC are more appropriate.
-#### 1.4 Normalized/Standardized Data:
-  - **Normalization:** Scaling features to a range, typically [0, 1].
+#### 1.4 Normalized/Standardized Data
+  - **Normalization:** Scaling features to a range, typically [0,1].
   - **Standardization:** Centering features around mean 0 with standard deviation 1.
   - **When to normalize/standardize:** Algorithms like k-NN, SVM, and neural networks benefit from normalization/standardization, whereas tree-based methods like Random Forest or Decision Trees generally don't require it.
-________________________________________
-2. Exploratory Data Analysis (EDA)
-1.	Descriptive Statistics:
-o	Summary statistics like mean, median, mode, variance, skewness, and kurtosis for numerical features.
-o	Frequency counts for categorical features.
-2.	Data Visualization:
-o	Univariate Analysis: Histograms, box plots, and density plots to understand the distribution of individual features.
-o	Bivariate Analysis: Scatter plots, pair plots, and correlation matrices to identify relationships between features.
-o	Multivariate Analysis: Techniques like PCA (Principal Component Analysis) to understand the relationships between multiple features.
-3.	Identifying Outliers: Box plots and z-scores can help detect outliers that might skew the model's performance.
-4.	Correlation Analysis:
-o	Correlation matrices to identify multicollinearity between features.
-o	Heatmaps to visualize correlations.
-o	Note: For highly correlated features, consider removing one to reduce multicollinearity.
-________________________________________
+
+---
+
+### 2. Exploratory Data Analysis (EDA)
+#### 2.1.	Descriptive Statistics
+  - **Summary statistics** like mean, median, mode, variance, skewness, and kurtosis for numerical features.
+  - **Frequency counts** for categorical features.
+#### 2.2.	Data Visualization
+  - **Univariate Analysis:** Histograms, box plots, and density plots to understand the distribution of individual features.
+  - **Bivariate Analysis:** Scatter plots, pair plots, and correlation matrices to identify relationships between features.
+  - **Multivariate Analysis:** Techniques like PCA (Principal Component Analysis) to understand the relationships between multiple features.
+#### 2.3.	Identifying Outliers
+  - **Box plots**
+  - **z-scores**
+#### 2.4.	Correlation Analysis
+  - **Correlation** matrices to identify multicollinearity between features.
+  - **Heatmaps** to visualize correlations.
+  - **Note:** For highly correlated features, consider removing one to reduce multicollinearity.
+
+---
+
 3. Data Cleaning
 Cleaning the data ensures that it is in a suitable format for model training!
 1.	Handling Missing Data:
