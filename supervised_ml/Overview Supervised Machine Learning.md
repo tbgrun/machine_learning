@@ -106,23 +106,23 @@ For classification, it's important to have a balanced dataset, where each class 
 
 ---
 
-6. Performance Metrics
-1.	Accuracy:
-o	The proportion of correct predictions out of the total predictions.
-o	Limitation: Misleading with imbalanced data.
-2.	Precision, Recall, and F1-Score:
-o	Precision: The proportion of true positive predictions out of all positive predictions.
-o	Recall: The proportion of true positives out of all actual positives.
-o	F1-Score: The harmonic mean of Precision and Recall, providing a balance between them.
-3.	ROC-AUC (Receiver Operating Characteristic - Area Under Curve):
-o	ROC Curve: Plots True Positive Rate (Recall) against False Positive Rate.
-o	AUC: The area under the ROC curve. A value close to 1 indicates a good model.
-4.	Confusion Matrix:
-o	A table showing the counts of true positives, true negatives, false positives, and false negatives.
-5.	Log Loss:
-o	Measures the uncertainty of the predictions. Lower values indicate better performance.
-6.	Cohen’s Kappa:
-o	Measures the agreement between the predicted and actual labels, adjusted for chance.
+### 6. Performance Metrics
+#### 6.1.	Accuracy
+  - The proportion of correct predictions out of the total predictions.
+  - **Limitation:** Misleading with imbalanced data.
+#### 6.2.	Precision, Recall, and F1-Score
+  - **Precision:** The proportion of true positive predictions out of all positive predictions.
+  - **Recall:** The proportion of true positives out of all actual positives.
+  - **F1-Score:** The harmonic mean of Precision and Recall, providing a balance between them.
+#### 6.3.	ROC-AUC (Receiver Operating Characteristic - Area Under Curve)
+  - **ROC Curve:** Plots True Positive Rate (Recall) against False Positive Rate.
+  - **AUC:** The area under the ROC curve. A value close to 1 indicates a good model.
+#### 6.4.	Confusion Matrix
+  - A table showing the counts of true positives, true negatives, false positives, and false negatives.
+#### 6.5.	Log Loss
+  - Measures the uncertainty of the predictions. Lower values indicate better performance.
+#### 6.6.	Cohen’s Kappa
+  - Measures the agreement between the predicted and actual labels, adjusted for chance.
 ________________________________________
 7. Feature Interpretation
 1.	Feature Importance:
