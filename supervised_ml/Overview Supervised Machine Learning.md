@@ -1,20 +1,23 @@
 # Overview in Supervised Machine Learning with Classifiers
+Supervised machine learning involves training a model on a labeled dataset, where the target variable is known. The goal is to predict the target variable for unseen data.
 
 ## Workflow
-Supervised machine learning involves training a model on a labeled dataset, where the target variable is known. The goal is to predict the target variable for unseen data.
-________________________________________
-1. Data Requirements
-1.	Labeled Data: Supervised learning requires a dataset with input features (X) and a target variable (y). For classification tasks, the target variable should be categorical.
-2.	No Missing Values (NaN): Machine learning algorithms do not handle missing values well, they need to be eliminated:
-o	Removing rows or columns with missing values.
-o	Imputing missing values using techniques like mean, median, mode, or more advanced methods like KNN imputation.
-3.	Balanced Data: For classification, it's important to have a balanced dataset, where each class is equally represented. If the dataset is imbalanced, use a stratified approach in the model, or use:
-o	Resampling techniques: Over-sampling the minority class (e.g., SMOTE) or under-sampling the majority class.
-o	Adjusting model evaluation metrics: Metrics like accuracy might be misleading with imbalanced data, so metrics like Precision, Recall, F1-Score, and ROC-AUC are more appropriate.
-4.	Normalized/Standardized Data:
-o	Normalization: Scaling features to a range, typically [0, 1].
-o	Standardization: Centering features around mean 0 with standard deviation 1.
-o	When to normalize/standardize: Algorithms like k-NN, SVM, and neural networks benefit from normalization/standardization, whereas tree-based methods like Random Forest or Decision Trees generally don't require it.
+
+### 1. Data Requirements
+#### 1.1 Labeled Data:
+Supervised learning requires a dataset with input features (X) and a target variable (y). For classification tasks, the target variable should be categorical.
+#### 1.2 No Missing Values (NaN):
+Machine learning algorithms do not handle missing values well, they need to be eliminated:
+  - **Removing** rows or columns with missing values.
+  - **Imputing** missing values using techniques like mean, median, mode, or more advanced methods like KNN imputation.
+#### 1.3 Balanced Data:
+For classification, it's important to have a balanced dataset, where each class is equally represented. If the dataset is imbalanced, use a stratified approach in the model, or use:
+  - **Resampling techniques:** Over-sampling the minority class (e.g., SMOTE) or under-sampling the majority class.
+  - **Adjusting model evaluation metrics:** Metrics like accuracy might be misleading with imbalanced data, so metrics like Precision, Recall, F1-Score, and ROC-AUC are more appropriate.
+#### 1.4 Normalized/Standardized Data:
+  - **Normalization:** Scaling features to a range, typically [0, 1].
+  - **Standardization:** Centering features around mean 0 with standard deviation 1.
+  - **When to normalize/standardize:** Algorithms like k-NN, SVM, and neural networks benefit from normalization/standardization, whereas tree-based methods like Random Forest or Decision Trees generally don't require it.
 ________________________________________
 2. Exploratory Data Analysis (EDA)
 1.	Descriptive Statistics:
