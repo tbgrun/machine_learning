@@ -33,8 +33,6 @@
 
 ### 2. **Exploratory Data Analysis (EDA)**
 
-EDA helps to understand the data and uncover patterns, trends, and relationships.
-
 #### 2.1 **Descriptive Statistics**
 - **Mean, Median, Mode**: Understand the central tendency.
 - **Variance, Standard Deviation**: Measure the spread of the data.
