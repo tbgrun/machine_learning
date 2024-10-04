@@ -123,32 +123,38 @@ For classification, it's important to have a balanced dataset, where each class 
   - Measures the uncertainty of the predictions. Lower values indicate better performance.
 #### 6.6.	Cohen’s Kappa
   - Measures the agreement between the predicted and actual labels, adjusted for chance.
-________________________________________
-7. Feature Interpretation
-1.	Feature Importance:
-o	For tree-based models like Random Forest, feature importance scores can be extracted to understand which features contribute most to the model.
-2.	SHAP Values (SHapley Additive exPlanations):
-o	Provides a consistent way to interpret the impact of features on the predictions. SHAP values show how much each feature contributes to pushing the model’s prediction from the baseline.
-3.	Partial Dependence Plots (PDPs):
-o	Visualizes the relationship between a feature and the predicted outcome, holding other features constant.
-4.	LIME (Local Interpretable Model-agnostic Explanations):
-o	Explains individual predictions by approximating the model locally with an interpretable model.
-________________________________________
-8. Model Validation and Testing
-1.	Test Set Evaluation:
-o	Apply the trained model to the test set and evaluate using the chosen performance metrics.
-2.	Overfitting Check:
-o	Compare the performance on the training and test sets. Significant differences indicate overfitting.
-o	Techniques to mitigate overfitting include regularization (L1, L2), pruning (for decision trees), and early stopping (for boosting models).
-________________________________________
-9. Model Deployment
-1.	Serialization:
-o	Save the trained model using libraries like joblib or pickle in Python for later use.
-2.	Integration:
-o	Integrate the model into production systems via APIs, batch processing, or real-time prediction systems.
-3.	Monitoring:
-o	Continuously monitor the model's performance in production to detect any drift in data or decrease in performance over time.
-o	Retrain the model periodically with new data if necessary.
+
+---
+
+### 7. Feature Interpretation
+#### 7.1.	Feature Importance
+  - For tree-based models like Random Forest, feature importance scores can be extracted to understand which features contribute most to the model.
+#### 7.2.	SHAP Values (SHapley Additive exPlanations)
+  - Provides a consistent way to interpret the impact of features on the predictions. SHAP values show how much each feature contributes to pushing the model’s prediction from the baseline.
+#### 7.3.	Partial Dependence Plots (PDPs)
+  - Visualizes the relationship between a feature and the predicted outcome, holding other features constant.
+#### 7.4.	LIME (Local Interpretable Model-agnostic Explanations)
+  - Explains individual predictions by approximating the model locally with an interpretable model.
+
+----
+
+### 8. Model Validation and Testing
+#### 8.1.	Test Set Evaluation
+  - Apply the trained model to the test set and evaluate using the chosen performance metrics.
+#### 8.2.	Overfitting Check
+  - Compare the performance on the training and test sets. Significant differences indicate overfitting.
+  - Techniques to mitigate overfitting include regularization (L1, L2), pruning (for decision trees), and early stopping (for boosting models).
+
+---
+
+### 9. Model Deployment
+#### 9.1.	Serialization
+  - Save the trained model using libraries like joblib or pickle in Python for later use.
+#### 9.2.	Integration
+  - Integrate the model into production systems via APIs, batch processing, or real-time prediction systems.
+#### 9.3.	Monitoring
+  - Continuously monitor the model's performance in production to detect any drift in data or decrease in performance over time.
+  - Retrain the model periodically with new data if necessary.
 ________________________________________
 10. Documentation and Reporting
 Finally, document the entire process and report the findings:
