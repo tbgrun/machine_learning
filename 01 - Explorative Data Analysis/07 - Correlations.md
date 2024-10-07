@@ -4,8 +4,8 @@
     import seaborn as sns
     import matplotlib.pyplot as plt
 ### 1.2 Run Pair Plot
-   sns.pairplot(df, hue='grouping_column')
-   plt.show()
+    sns.pairplot(df, hue='grouping_column')
+    plt.show()
 ## 2. Heatmap
 ### 2.1 Import Libraries
     import seaborn as sns
