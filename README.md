@@ -4,7 +4,7 @@
 ## Content
 ### [Explorative Data Analysis (EDA)](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/00%20-%20Explorative%20Data%20Analysis.md)
 * [Dataframe Descriptors](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/01%20-%20Dataframe%20Descriptors.md)
-* [Missing Values]()
+* [Missing Values](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02%20-%20Missing%20Values.md)
 * [Zeros]()
 * [Duplicates]()
 * [Normal Distribution]()
