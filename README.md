@@ -8,9 +8,9 @@
 * [Zeros](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/03%20-%20Zeros.md)
 * [Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04%20-%20Duplicates.md)
 * [Normal Distribution](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/05%20-%20Normal%20Distribution.md)
-### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/01%20-%20Supervised%20Machine%20Learning.md)
-#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/02%20-%20Regressions.md)
-* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/02.01%20-%20Linear%20Regression.md)
+### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
+#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
+* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
 * Logistic Regression
 * Polynomial Regression
 * Ridge Regression
