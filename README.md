@@ -7,8 +7,9 @@
 * [Missing Values](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02%20-%20Missing%20Values.md)
 * [Zeros](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/03%20-%20Zeros.md)
 * [Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04%20-%20Duplicates.md)
+* [Outliers]()
 * [Normal Distribution](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/05%20-%20Normal%20Distribution.md)
-* Correlations
+* [Correlations](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/07%20-%20Correlations.md)
 ### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
 #### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
