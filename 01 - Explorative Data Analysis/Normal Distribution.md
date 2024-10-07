@@ -8,7 +8,7 @@
     stats.probplot(data, dist="norm", plot=plt)
     plt.show()
 ## 2. Shapiro-Wilk Test
-Tests the distribution for skewness and kurtosis compared to a normal distribution.
+Sensitive to center of distribution, as well as to skewness and kurtosis.
 ### 2.1 Import Libraries
     import numpy as np
     from scipy import stats
@@ -17,7 +17,7 @@ Tests the distribution for skewness and kurtosis compared to a normal distributi
     print(stat, p_value)
 If p_value > alpha: fail to reject H0 (data is normal)
 ## 3. Anderson-Darling Test
-Tests the distribution for tails
+Sensitive to tails of distribution.
 ### 3.1 Import Libraries
     import pandas as pd
     import numpy as np
