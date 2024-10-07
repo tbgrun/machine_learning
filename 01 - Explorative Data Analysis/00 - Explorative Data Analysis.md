@@ -5,4 +5,4 @@
 ### 4. [Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04%20-%20Duplicates.md)
 ### 5. Outliers
 ### 6. [Normal Distribution](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/06%20-%20Normal%20Distribution.md)
-### 7. [Correlations]()
+### 7. [Correlations](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/07%20-%20Correlations.md)
