@@ -1,5 +1,6 @@
 # Normal Distribution
-## 1. Shapiro-Wilk Test
+## 1. Q-Q Plot
+## 2. Shapiro-Wilk Test
 Tests the distribution for skewness and kurtosis compared to a normal distribution. 
-## 2. Darling-Anderson Test
+## 3. Anderson-Darling Test
 Tests the distribution for tails
