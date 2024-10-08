@@ -3,6 +3,7 @@
 ### 2. [Missing Values](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02%20-%20Missing%20Values.md)
 ### 2.2 [Handle Missing Values](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02.01%20-%20Handle%20Missing%20Values.md)
 ### 3. [Zeros](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/03%20-%20Zeros.md)
+### 3.1 [Handle Zeros](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/03.01%20-%20Handle%20Zeros)
 ### 4. [Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04%20-%20Duplicates.md)
 ### 4.1. [Handle Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04.01%20-%20Handle%20Duplicates.md)
 ### 5. [Outliers](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/05%20-%20Outliers.md)
