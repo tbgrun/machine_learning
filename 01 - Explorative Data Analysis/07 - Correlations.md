@@ -11,8 +11,13 @@
     import seaborn as sns
     import matplotlib.pyplot as plt
     import pandas as pd
-### 2.2 Run Heatmap
-    correlation_matrix = df.corr() # generates correlation matrix
-    plt.figure(figsize=(10, 8))  # set figure size
-    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', square=True, linewidths=0.5) # generates heatmap
+### 2.2a Run Heatmap as Single Plot
+    correlation_matrix = df.corr() # generates correlation matrix. Use .corr().abs() if correlation should be positive
+    plt.figure(figsize=(15, 10))  # set figure size
+    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', square=True, linewidths=0) # generates heatmap
+    plt.show()
+### 2.2b Run Heatmap as Subplot
+    correlation_matrix = df.corr() # generates correlation matrix. Use .corr().abs() if correlation should be positive
+    fig, ax = plt.subplots(figsize=(15, 10))  # set axes and figure size
+    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', square=True, linewidths=0, ax=ax) # generates heatmap
     plt.show()
