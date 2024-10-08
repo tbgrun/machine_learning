@@ -5,4 +5,4 @@
 #### 1.2 Run Scripts
     print(df.isnull().sum())
 
-[klick here to get to "Handle Missing Values"](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02.01%20-%20Handle%20Missing%20Values.md){:target="_blank"}
+<a href="https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02.01%20-%20Handle%20Missing%20Values.md" target="_blank">klick here to get to "Handle Missing Values"</a>
