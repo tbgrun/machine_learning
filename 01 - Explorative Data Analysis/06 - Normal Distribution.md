@@ -28,3 +28,5 @@ Sensitive to tails of distribution.
     critical_values = anderson_result.critical_values
     significance_level = anderson_result.significance_level
 If "statistic" is greater than "critical_value" at given "significance_level" then reject H0 (= data does not follow normal distribution).
+
+[klick here to get to "Transform Data"]()
