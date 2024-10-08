@@ -1,8 +1,12 @@
 # Explorative Data Analysis (EDA)
 ### 1. [Dataframe Descriptors](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/01%20-%20Dataframe%20Descriptors.md)
 ### 2. [Missing Values](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/02%20-%20Missing%20Values.md)
+### 2.2 Handle Missing Values
 ### 3. [Zeros](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/03%20-%20Zeros.md)
 ### 4. [Duplicates](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/04%20-%20Duplicates.md)
+### 4.1. Handle Duplicates
 ### 5. [Outliers](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/05%20-%20Outliers.md)
+### 5.1 Handle Duplicates
 ### 6. [Normal Distribution](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/06%20-%20Normal%20Distribution.md)
+### 6.1 Transform Data
 ### 7. [Correlations](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/07%20-%20Correlations.md)
