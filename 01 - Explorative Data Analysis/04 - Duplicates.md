@@ -11,3 +11,5 @@ Returns "True" if duplicates are present and "False" if none are present.
 Returns which rows are duplicated (if any) and shows their content.
 
     print(df[df.duplicated(keep=False)])
+
+[klick here to get to "Handle Duplicates"]()
