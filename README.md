@@ -16,6 +16,10 @@ This repository features a collection of workflows and Python code snippets desi
 * [Handling Duplicates](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/03%20-%20Handling%20Duplicates.md)
 * [Handling Outliers](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/04%20-%20Handling%20Outliers.md)
 * [Handling Non-Normal Distributed Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/05%20-%20Handling%20Non-Normal%20Distributed%20Data.md)
+* [Handling Multi-Colinearity](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/06%20-%20Handling%20Multi-Colinearity.md)
+* Remove Weak Features
+* Feature Engineering
+* Encoding Categorial Data
 ### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
 #### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
