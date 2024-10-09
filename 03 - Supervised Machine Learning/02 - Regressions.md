@@ -78,7 +78,7 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 
 ### 4. **Choosing the Correct Model**
 
-#### 4.1 [**Linear Regression**](https://github.com/tbgrun/machine_learning/blob/main/supervised_ml/02.01%20-%20Linear%20Regression.md)
+#### 4.1 [**Linear Regression**](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
 - **Best for**: When the relationship between features and the target is linear.
 - **Pros**: Simple, interpretable.
 - **Cons**: Sensitive to outliers, assumes linearity.
