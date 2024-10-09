@@ -16,9 +16,23 @@
 ### 2.2 Combine features via [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/08%20-%20Feature%20Engineering.md)
 ## 3. Dimension Reduction
 ### 3.1. Principal Component Analysis
-PCA automatically combines correlated features
+PCA automatically linear combines correlated features.
 #### 3.1.1 Import Libraries
     from sklearn.decomposition import PCA
+    from sklearn.preprocessing import StandardScaler
+    import pandas as pd
 #### 3.1.2 Run PCA
+##### 3.1.2.1 Seperate Feature from Target
+    X = df.drop('target_column', axis=1)  # removing target variable results in features dataframe
+    y = df['target_column']  # target variable
+##### 3.1.2.2 Standardize Features
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+##### 3.1.2.3 Run PCA
     pca = PCA(n_components=n)  # reduces data to n components
-    dimension_reduced_df = pca.fit_transform(df) # dataframe reduced to n components
+    dimension_reduced_df = pca.fit_transform(Xscaled) # scaled dataframe reduced to n components
+##### 3.1.2.4 Feature Importance
+    loadings = pca.components_ # shows the importance of each feature
+    loadings_df = pd.DataFrame(loadings.T, columns=[f'PC{i+1}' for i in range(loadings.shape[0])], index=X.columns)
+    explained_variance = pca.explained_variance_ratio_ # calculates how much variance each principal component explains
+    
