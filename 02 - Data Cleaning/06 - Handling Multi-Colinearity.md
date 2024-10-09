@@ -21,17 +21,16 @@ PCA automatically linear combines correlated features.
     from sklearn.decomposition import PCA
     from sklearn.preprocessing import StandardScaler
     import pandas as pd
-#### 3.1.2 Run PCA
-##### 3.1.2.1 Seperate Feature from Target
+#### 3.1.2 Seperate Feature from Target
     X = df.drop('target_column', axis=1)  # removing target variable results in features dataframe
     y = df['target_column']  # target variable
-##### 3.1.2.2 Standardize Features
+#### 3.1.3 Standardize Features
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
-##### 3.1.2.3 Run PCA
+#### 3.1.4 Run PCA
     pca = PCA(n_components=n)  # reduces data to n components
     dimension_reduced_df = pca.fit_transform(Xscaled) # scaled dataframe reduced to n components
-##### 3.1.2.4 Feature Importance
+#### 3.1.5 Feature Importance
     loadings = pca.components_ # shows the importance of each feature
     loadings_df = pd.DataFrame(loadings.T, columns=[f'PC{i+1}' for i in range(loadings.shape[0])], index=X.columns)
     explained_variance = pca.explained_variance_ratio_ # calculates how much variance each principal component explains
