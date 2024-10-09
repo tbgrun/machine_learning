@@ -1,5 +1,5 @@
 # Machine Learning
-**IMPORTANT:** In this repository, I have accumulated and structured notes on machine learning techniques, including Python code. The repository will grow over time as I add more content. Please be aware that this repository does not claim to be exhaustive, correct, or that the code will work out of the box. Please use all information and code with caution.
+This repository features a collection of workflows and Python code snippets designed to support various machine learning tasks. It’s currently a work in progress, so some links may be inactive or wrong, and certain topics still under development. Explore the current content, and be sure to check back as the repository continues to grow. Your constructive feedback is always welcome!
 
 ## Content
 ### [Explorative Data Analysis (EDA)](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/00%20-%20Explorative%20Data%20Analysis.md)
