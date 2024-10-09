@@ -1,4 +1,4 @@
-# Transform Data
+# Handling Non-Normal Distributed Data
 ## 1. Log Transformation
 ### 1.1 Requirements
 * No zeros [klick here to handle zeros]
