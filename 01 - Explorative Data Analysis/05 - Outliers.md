@@ -33,10 +33,10 @@ import pandas as pd
 ### 3.1 Import Libraries
     import numpy as np
 ### 3.2 Run Outlier Identification
-median = df['value'].median() # calculate median
-MAD = np.median(np.abs(df['value'] - median)) # calculate MAD
-df['modified_z_score'] = 0.6745 * (df['value'] - median) / MAD # calculate modified z-scores
-outliers = df[np.abs(df['modified_z_score']) > 3.5] # identify outliers
-print(outliers)
+    median = df['value'].median() # calculate median
+    MAD = np.median(np.abs(df['value'] - median)) # calculate MAD
+    df['modified_z_score'] = 0.6745 * (df['value'] - median) / MAD # calculate modified z-scores
+    outliers = df[np.abs(df['modified_z_score']) > 3.5] # identify outliers
+    print(outliers)
 
 [klick here to get to "Handling Outliers"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/04%20-%20Handling%20Outliers.md)
