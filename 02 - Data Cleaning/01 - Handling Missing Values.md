@@ -1,4 +1,4 @@
-# Handle Missing Values
+# Handling Missing Values
 ### 2.1 Remove rows or columns
 #### 2.1.1 Import Libraries
     import pandas as pd
