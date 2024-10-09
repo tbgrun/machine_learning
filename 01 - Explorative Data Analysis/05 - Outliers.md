@@ -14,10 +14,10 @@ import pandas as pd
     outliers = df[(df['column_name'] < lower_bound) | (df['column_name'] > upper_bound)] # identify outliers
     print(outliers)
 ### 1.3 Visualization
-Boxplot by default features an 1.5x IQR.
     import matplotlib.pyplot as plt
     plt.boxplot(data)
     plt.show()
+* Boxplot is by default 1.5x IQR
 ## 2. Z-Score
 The Z-score method measures how many standard deviations a data point is from the mean. A Z-score above 3 or below -3 is considered an outlier.
 ### 2.1 Import Libraries
