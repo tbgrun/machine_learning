@@ -1,4 +1,4 @@
-# Handle Duplicates
+# Handling Duplicates
 ### 1. Remove duplicated rows
 #### 1.1 Import Libraries
     import pandas as pd
