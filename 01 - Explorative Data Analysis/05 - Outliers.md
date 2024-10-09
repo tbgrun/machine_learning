@@ -41,3 +41,5 @@ outliers = df[np.abs(df['modified_z_score']) > 3.5]
 print("Outliers using Modified Z-score method:")
 print(outliers)
 #### Visualization
+
+[klick here to get to "Handling Outliers"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/04%20-%20Handling%20Outliers.md)
