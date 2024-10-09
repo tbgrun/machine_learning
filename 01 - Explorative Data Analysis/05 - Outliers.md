@@ -24,14 +24,15 @@ The Z-score method measures how many standard deviations a data point is from th
     import numpy as np
     from scipy import stats
 ### 2.2 Run Outlier Identification
-df['z_score'] = (df['value'] - df['value'].mean()) / df['value'].std() # calculates z-score
-outliers = df[np.abs(df['z_score']) > 3] # identify outliers
-print(outliers)
+    df['z_score'] = (df['value'] - df['value'].mean()) / df['value'].std() # calculates z-score
+    outliers = df[np.abs(df['z_score']) > 3] # identify outliers
+    print(outliers)
 ## 3. Modified Z-Score
 This method is robust for smaller datasets and uses the median and median absolute deviation (MAD) instead of mean and standard deviation.
 import pandas as pd
 ### 3.1 Import Libraries
     import numpy as np
+    import pandas as pd
 ### 3.2 Run Outlier Identification
     median = df['value'].median() # calculate median
     MAD = np.median(np.abs(df['value'] - median)) # calculate MAD
