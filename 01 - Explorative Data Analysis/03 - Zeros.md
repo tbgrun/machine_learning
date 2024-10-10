@@ -2,7 +2,7 @@
 ### 1. Identify zeros in dataframe
 #### 1.1 Import Libraries
     import pandas as pd
-#### 1.1 Identifies if any value of the dataframe is a zero
+#### 1.1 Identifies if any value in the dataframe is a zero
     df = pd.DataFrame(dataframe)
     print((df == 0).any().any())
 #### 1.2 Identifies which column contains zeros
