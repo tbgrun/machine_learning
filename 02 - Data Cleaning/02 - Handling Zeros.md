@@ -14,7 +14,7 @@ Replaces only zero-values with a very small constant.
     df = pd.DataFrame(dataframe)
     df = df.replace(0, 1e-10)
 ## 3. Replace Zeros
-Replaces only zero-values with a NaN. Only applicable if zero represent a missing value. Check ["Handling Missing Values"]().
+Replaces only zero-values with a NaN. Only applicable if zero represent a missing value. Check ["Handling Missing Values"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/01%20-%20Handling%20Missing%20Values.md).
 ### 3.1 Import Libraries
     import pandas as pd
     import numpy as np
