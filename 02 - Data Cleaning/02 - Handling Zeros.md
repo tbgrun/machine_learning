@@ -13,11 +13,11 @@ Replaces only zero-values with a very small constant.
 ### 2.2 Replace Zeros
     df = pd.DataFrame(dataframe)
     df = df.replace(0, 1e-10)
-## 2. Replace Zeros
-Replaces only zero-values with a NaN. Only applicable if zero represent a missing value.
-### 2.1 Import Libraries
+## 3. Replace Zeros
+Replaces only zero-values with a NaN. Only applicable if zero represent a missing value. Check ["Handling Missing Values"]().
+### 3.1 Import Libraries
     import pandas as pd
     import numpy as np
-### 2.2 Replace Zeros with NaN
+### 3.2 Replace Zeros with NaN
     df = pd.DataFrame(dataframe)
     df = df.replace(0, np.nan)
