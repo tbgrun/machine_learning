@@ -8,9 +8,9 @@ import pandas as pd
 ### 1.2 Run Outlier Identification
     q1 = df['column_name'].quantile(0.25) # calculate q1 (25th percentile)
     q3 = df['column_name'].quantile(0.75) # calculate q3 (75th percentile)
-    iqr = Q3 - Q1 # calculate IQR
-    lower_bound = q1 - 1.5 * iqr # define upper boundary
-    upper_bound = q3 + 1.5 * iqr # define lower boundary
+    iqr = q3 - q1 # calculate IQR
+    lower_bound = q1 - 1.5 * iqr # define lower boundary
+    upper_bound = q3 + 1.5 * iqr # define upper boundary
     outliers = df[(df['column_name'] < lower_bound) | (df['column_name'] > upper_bound)] # identify outliers
     print(outliers)
 ### 1.3 Visualization
