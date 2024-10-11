@@ -3,8 +3,8 @@
 ### 1.1 Interaction
 #### 1.1.1 Import Libraries
     import pandas as pd
-##### 1.1.2a Feature Multiplication
-##### 1.1.2b Feature Ratio
+#### 1.1.2a Feature Multiplication
+#### 1.1.2b Feature Ratio
 
 #### 1.1a
 #### 1.1b Ratios
