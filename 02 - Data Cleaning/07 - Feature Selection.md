@@ -1,4 +1,4 @@
-# Remove Weak Features
+# Feature Selection
 ## 1. Low Varianve
 ### 1.1 Import Libraries
     import pandas as pd
