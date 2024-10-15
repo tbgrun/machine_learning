@@ -28,6 +28,3 @@ Dank fü# Feature Engineering
 **Include bias**
 * True: adds an intercept column with 1s. It improves accuracy by shifting the predictions vertically. Useful if regression model does not feature intercept on its own.
 * False: does not add 1s, Chose when regression model already includes an intercept term. Most models in scikit-learn (if 'fit_intercept' attribut is present, it contains an intercept term)
-
-
-## 2. Dimension Reduction
