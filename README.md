@@ -19,7 +19,7 @@ This repository features a collection of workflows and Python code snippets desi
 * [Handling Multi-Colinearity](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/06%20-%20Handling%20Multi-Colinearity.md)
 * [Feature Selection](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/07%20-%20Feature%20Selection.md)
 * [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/08%20-%20Feature%20Engineering.md)
-* Encoding Categorial Data
+* [Encoding Categorial Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/09%20-%20Encoding%20Categorial%20Data.md)
 ### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
 #### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
