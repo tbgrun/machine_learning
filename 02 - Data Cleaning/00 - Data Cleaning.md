@@ -7,4 +7,4 @@
 ### 6. [Handling Multi-Colinearity](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/06%20-%20Handling%20Multi-Colinearity.md)
 ### 7. [Feature Selection](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/07%20-%20Feature%20Selection.md)
 ### 8. [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/08%20-%20Feature%20Engineering.md)
-### 9. Encoding Categorial Data
+### 9. [Encoding Categorial Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/09%20-%20Encoding%20Categorial%20Data.md)
