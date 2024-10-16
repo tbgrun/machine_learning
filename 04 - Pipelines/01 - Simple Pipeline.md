@@ -8,6 +8,7 @@
     y = df['target_column_name'] # target
 ### 3. Split Data
 [see "Split Data" for different techniques](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/00%20-%20Data%20Splitting.md)
+    
     X_train, X_test, y_train, y_test =
 ### 4. Run Pipeline
     pipeline = Pipeline([
