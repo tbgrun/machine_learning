@@ -8,4 +8,4 @@
 ### 7. [Feature Selection](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/07%20-%20Feature%20Selection.md)
 ### 8. [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/08%20-%20Feature%20Engineering.md)
 ### 9. [Encoding Categorial Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/09%20-%20Encoding%20Categorial%20Data.md)
-### 10. Data Scaling
+### 10. [Data Scaling](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/10%20-%20Scaling.md)
