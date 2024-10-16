@@ -20,7 +20,7 @@ This repository features a collection of workflows and Python code snippets desi
 * [Feature Selection](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/07%20-%20Feature%20Selection.md)
 * [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/08%20-%20Feature%20Engineering.md)
 * [Encoding Categorial Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/09%20-%20Encoding%20Categorial%20Data.md)
-* Data Scaling
+* [Data Scaling](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/10%20-%20Scaling.md)
 ### [Data Splitting](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/00%20-%20Data%20Splitting.md)
 * [Train-Test](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/01%20-%20Train-Test%20Splitting.md)
 * [Train-Validation-Test](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/02%20-%20Train-Validation-Test%20Splitting.md)
