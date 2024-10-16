@@ -27,9 +27,9 @@ This repository features a collection of workflows and Python code snippets desi
 * [K-Fold Cross-Validation](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/03%20-%20K-Fold%20Cross-Validation.md)
 * [Stratified](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Data%20Splitting/04%20-%20Stratified%20Splitting.md)
 ### [Pipelines](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Pipelines/00%20-%20Pipelines.md)
-* Simple
-* Nested
-* Grid Search
+* [Simple](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Pipelines/01%20-%20Simple%20Pipeline.md)
+* [Nested](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Pipelines/02%20-%20Nested%20Pipeline.md)
+* [Grid Search](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Pipelines/03%20-%20Grid%20Search%20Pipeline.md)
 ### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/00%20-%20Supervised%20Machine%20Learning.md)
 #### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.01%20-%20Linear%20Regression.md)
