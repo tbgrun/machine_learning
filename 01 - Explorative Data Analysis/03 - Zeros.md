@@ -16,4 +16,4 @@
     df = pd.DataFrame(dataframe)
     print(df == 0)
 
-[klick here to get to "Handling Zeros"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/02%20-%20Handling%20Zeros)
+[klick here to get to "Handling Zeros"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/03%20-%20Handling%20Zeros.md)
