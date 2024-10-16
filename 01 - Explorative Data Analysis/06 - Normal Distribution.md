@@ -29,4 +29,4 @@ Sensitive to tails of distribution.
     significance_level = anderson_result.significance_level
 If "statistic" is greater than "critical_value" at given "significance_level" then reject H0 (= data does not follow normal distribution).
 
-[klick here to get to "Handling Non-Normal Distributed Data"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/06%20-%20Handling%20Non-Normal%20Distributed%20Data.md)
+[klick here to get to "Handling Non-Normal Distributed Data"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/05%20-%20Handling%20Non-Normal%20Distributed%20Data.md)
