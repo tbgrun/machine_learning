@@ -10,7 +10,7 @@
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 * **test_size:** defines the fraction of the test set. E.g., 0.2 = 20% of data is test set (therefore 80% is used for training). 0.2 is standard.
 * **random_state:** ensures reproducibility.
-### 4. Train Model
+### 4. Run Model
     model =
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
