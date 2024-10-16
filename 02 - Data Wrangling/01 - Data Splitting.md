@@ -3,6 +3,7 @@
 ### 1.1 Import Libraries
     import numpy as np
     from sklearn.model_selection import train_test_split
+    from sklearn.metrics import accuracy_score
 ### 1.2 Identify Feautures and Target
     X = df.drop(columns='target_column_name') # removes target variable from dataframe
     y = df['target_column_name'] # target
