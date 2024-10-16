@@ -22,4 +22,4 @@
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', square=True, linewidths=0, ax=ax) # generates heatmap
     plt.show()
 
-[klick here to get to "Handling Multi-Colinearity"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/07%20-%20Handling%20Multi-Colinearity.md)
+[klick here to get to "Handling Multi-Colinearity"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/06%20-%20Handling%20Multi-Colinearity.md)
