@@ -23,9 +23,9 @@ This repository features a collection of workflows and Python code snippets desi
 * [Encoding Categorial Data](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/10%20-%20Encoding%20Categorial%20Data.md)
 * Data Scaling
 ### Pipelines
-### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
-#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
-* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/03%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
+### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
+#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
+* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/04%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
 * Logistic Regression
 * Polynomial Regression
 * Ridge Regression
