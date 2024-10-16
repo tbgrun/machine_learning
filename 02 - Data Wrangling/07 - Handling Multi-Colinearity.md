@@ -13,7 +13,7 @@
 ### 2.1. Identify Highly Correlated Features
 * Pearson Correlation
 * Correlation Matrix (e.g., via [Heatmap](https://github.com/tbgrun/machine_learning/blob/main/01%20-%20Explorative%20Data%20Analysis/07%20-%20Correlations.md#2-heatmap))
-### 2.2 Combine features via [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/08%20-%20Feature%20Engineering.md)
+### 2.2 Combine features via [Feature Engineering](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/09%20-%20Feature%20Engineering.md)
 ## 3. Dimension Reduction
 ### 3.1. Principal Component Analysis
 PCA automatically linear combines correlated features.
