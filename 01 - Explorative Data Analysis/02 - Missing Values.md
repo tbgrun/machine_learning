@@ -5,4 +5,4 @@
 #### 1.2 Run Scripts
     print(df.isnull().sum())
 
-[klick here to get to "Handling Missing Values"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/02%20-%20Handling%20Missing%20Values.md)
+[klick here to get to "Handling Missing Values"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/01%20-%20Handling%20Missing%20Values.md)
