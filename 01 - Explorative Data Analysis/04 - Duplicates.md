@@ -12,4 +12,4 @@ Returns which rows are duplicated (if any) and shows their content.
 
     print(df[df.duplicated(keep=False)])
 
-[klick here to get to "Handling Duplicates"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/03%20-%20Handling%20Duplicates.md)
+[klick here to get to "Handling Duplicates"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/04%20-%20Handling%20Duplicates.md)
