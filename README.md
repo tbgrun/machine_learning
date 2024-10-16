@@ -30,9 +30,9 @@ This repository features a collection of workflows and Python code snippets desi
 * Simple
 * Nested
 * Grid Search
-### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01%20-%20Supervised%20Machine%20Learning.md)
-#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/02%20-%20Regressions.md)
-* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/02.01%20-%20Linear%20Regression.md)
+### [Supervised Machine Learning](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/00%20-%20Supervised%20Machine%20Learning.md)
+#### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01%20-%20Regressions.md)
+* [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.01%20-%20Linear%20Regression.md)
 * Logistic Regression
 * Polynomial Regression
 * Ridge Regression
