@@ -40,4 +40,4 @@ import pandas as pd
     outliers = df[np.abs(df['modified_z_score']) > 3.5] # identify outliers
     print(outliers)
 
-[klick here to get to "Handling Outliers"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Cleaning/04%20-%20Handling%20Outliers.md)
+[klick here to get to "Handling Outliers"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/05%20-%20Handling%20Outliers.md)
