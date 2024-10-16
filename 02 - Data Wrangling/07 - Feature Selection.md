@@ -8,7 +8,7 @@
     selector = VarianceThreshold(threshold=x) # e.g., x=.1. Low treshold = removal of constant features
     df_LVF_dropped = selector.fit_transform(df)
 ## 2. Multi-Colinearity
-[see "Handling Multi-Colinearity"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/07%20-%20Handling%20Multi-Colinearity.md)
+[see "Handling Multi-Colinearity"](https://github.com/tbgrun/machine_learning/blob/main/02%20-%20Data%20Wrangling/06%20-%20Handling%20Multi-Colinearity.md)
 ## 3. Principal Component Analysis
 ### 3.1 Import Libraries
     import pandas as pd
