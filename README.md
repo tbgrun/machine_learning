@@ -34,7 +34,7 @@ This repository features a collection of workflows and Python code snippets desi
 #### [Regressions](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01%20-%20Regressions.md)
 * [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.01%20-%20Linear%20Regression.md)
 * Polynomial Regression
-* [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression)
+* [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression.md)
 * Ridge Regression
 * Lasso Regression
 * Elastic-Net Regression
