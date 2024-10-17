@@ -88,7 +88,7 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 - **Pros**: Captures non-linear relationships.
 - **Cons**: Prone to overfitting with high-degree polynomials.
 
-#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression)
+#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression.md)
 - **Best for**: Binary classification problems, not strictly regression.
 - **Pros**: Good for binary outcomes.
 - **Cons**: Assumes a linear relationship between the features and the log-odds of the outcome.
