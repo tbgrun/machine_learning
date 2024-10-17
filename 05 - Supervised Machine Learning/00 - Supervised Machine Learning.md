@@ -65,7 +65,7 @@ For classification, it's important to have a balanced dataset, where each class 
   - **Best for**: When the relationship is non-linear but can be represented as a polynomial.
   - **Pros**: Captures non-linear relationships.
   - **Cons**: Prone to overfitting with high-degree polynomials.
-#### 4.3.	Logistic Regression
+#### 4.3.	[Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression.md)
   - **Use case:** When the relationship between the features and the target variable is approximately linear.
   - **Pros:** Simple to implement, interpretable coefficients.
   - **Cons:** Assumes linearity, sensitive to outliers.
