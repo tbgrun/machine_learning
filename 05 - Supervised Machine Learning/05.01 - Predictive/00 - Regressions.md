@@ -78,17 +78,17 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 
 ### 4. Choosing the Correct Model
 
-#### 4.1 [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.01%20-%20Linear%20Regression.md)
+#### 4.1 [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.01%20-%20Linear%20Regression.md)
 - **Best for**: When the relationship between features and the target is linear.
 - **Pros**: Simple, interpretable.
 - **Cons**: Sensitive to outliers, assumes linearity.
 
-#### 4.2 Polynomial Regression
+#### 4.2 [Polynomial Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.02%20-%20Polynomial%20Regression.md)
 - **Best for**: When the relationship is non-linear but can be represented as a polynomial.
 - **Pros**: Captures non-linear relationships.
 - **Cons**: Prone to overfitting with high-degree polynomials.
 
-#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/01.03%20-%20Logistic%20Regression.md)
+#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md)
 - **Best for**: Binary classification problems, not strictly regression.
 - **Pros**: Good for binary outcomes.
 - **Cons**: Assumes a linear relationship between the features and the log-odds of the outcome.
