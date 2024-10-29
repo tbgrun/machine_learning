@@ -65,31 +65,31 @@ For classification, it's important to have a balanced dataset, where each class 
   - **Best for**: When the relationship is non-linear but can be represented as a polynomial.
   - **Pros**: Captures non-linear relationships.
   - **Cons**: Prone to overfitting with high-degree polynomials.
-#### 4.3.	Logistic Regression: [Predictive](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md) | [Classification]
+#### 4.3.	Logistic Regression: [Predictive](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md) | Classification
   - **Use case:** When the relationship between the features and the target variable is approximately linear.
   - **Pros:** Simple to implement, interpretable coefficients.
   - **Cons:** Assumes linearity, sensitive to outliers.
-#### 4.4.	Decision Trees
+#### 4.4.	Decision Trees: Predictive | Classification
   - **Use case:** When you need an interpretable model that can capture non-linear relationships.
   - **Pros:** Easy to interpret, handles both numerical and categorical data.
   - **Cons:** Prone to overfitting, especially with deep trees.
-#### 4.5.	Random Forest
+#### 4.5.	Random Forest: Predictive | Classification
   - **Use case:** When you need a robust, high-performance model that handles non-linear relationships.
   - **Pros:** Reduces overfitting by averaging multiple trees, handles missing data well.
   - **Cons:** Less interpretable, computationally expensive.
-#### 4.6.	Support Vector Machines (SVM)
+#### 4.6.	Support Vector Machines (SVM): Predictive | Classification
   - **Use case:** When your data has clear margins of separation between classes.
   - **Pros:** Effective in high-dimensional spaces, robust to overfitting with proper regularization.
   - **Cons:** Computationally expensive, especially with large datasets.
-#### 4.7.	k-Nearest Neighbors (k-NN)
+#### 4.7.	k-Nearest Neighbors (k-NN): Predictive | Classification
   - **Use case:** When you have a small dataset and don't require interpretability.
   - **Pros:** Simple, no training phase.
   - **Cons:** Sensitive to noisy data, computationally expensive during prediction.
-#### 4.8.	Naive Bayes
+#### 4.8.	Naive Bayes: Predictive | Classification
   - **Use case:** When your features are independent, or in text classification problems.
   - **Pros:** Fast, works well with small datasets and text data.
   - **Cons:** Assumes feature independence, which is often unrealistic.
-#### 4.9.	Ensemble Methods
+#### 4.9.	Ensemble Methods: Predictive | Classification
   - **Bagging** (e.g., Random Forest): Combines multiple weak models (like decision trees) to reduce variance.
   - **Boosting** (e.g., AdaBoost, XGBoost, Gradient Boosting): Focuses on correcting the errors of previous models by adding models sequentially.
   - **Stacking:** Combines multiple models by training a meta-model on the predictions of the base models.
