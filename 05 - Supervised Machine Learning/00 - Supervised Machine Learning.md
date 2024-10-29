@@ -57,15 +57,15 @@ For classification, it's important to have a balanced dataset, where each class 
 ---
 
 ### 4. Choosing the Correct Model
-#### 4.1 [Linear Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.01%20-%20Linear%20Regression.md)
+#### 4.1 Linear Regression: [Predictive](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.01%20-%20Linear%20Regression.md)   Classification
   - **Best for**: When the relationship between features and the target is linear.
   - **Pros**: Simple, interpretable.
   - **Cons**: Sensitive to outliers, assumes linearity.
-#### 4.2 [Polynomial Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.02%20-%20Polynomial%20Regression.md)
+#### 4.2 Polynomial Regression: [Predictive](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.02%20-%20Polynomial%20Regression.md)   [Classification](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.02%20-%20Classification/01.02%20-%20Polynomial%20Regression.md)
   - **Best for**: When the relationship is non-linear but can be represented as a polynomial.
   - **Pros**: Captures non-linear relationships.
   - **Cons**: Prone to overfitting with high-degree polynomials.
-#### 4.3.	[Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md)
+#### 4.3.	Logistic Regression: [Predictive](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md)   [Classification]
   - **Use case:** When the relationship between the features and the target variable is approximately linear.
   - **Pros:** Simple to implement, interpretable coefficients.
   - **Cons:** Assumes linearity, sensitive to outliers.
