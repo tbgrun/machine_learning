@@ -83,7 +83,7 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 - **Pros**: Simple, interpretable.
 - **Cons**: Sensitive to outliers, assumes linearity.
 
-#### 4.2 [Polynomial Regression]()
+#### 4.2 [Polynomial Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.02%20-%20Classification/01.02%20-%20Polynomial%20Regression.md)
 - **Best for**: When the relationship is non-linear but can be represented as a polynomial.
 - **Pros**: Captures non-linear relationships.
 - **Cons**: Prone to overfitting with high-degree polynomials.
