@@ -46,13 +46,7 @@ This repository features a collection of workflows and Python code snippets desi
 * Naive Bayes
 * Ensamble Methods
 #### Classification
-* [Regressions](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.02%20-%20Classification/01%20-%20Regressions)
-  * Linear Regression
-  * [Polynomial Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.02%20-%20Classification/01.02%20-%20Polynomial%20Regression.md)
-  * Logistic Regression
-  * Ridge Regression
-  * Lasso Regression
-  * Elastic-Net Regression
+* Logistic Regression
 * Decission Trees
 * Random Forest
 * Support Vector Machines
