@@ -2,8 +2,13 @@ import seaborn as sns
 
 plt.figure(figsize=(width, height))
 
-ax1 = sns.kdeplot(df['column_name'], hist=False, color="r", label="Actual Value")
+ax1 = sns.kdeplot(df['column_name'], color="r", label="Actual Value")
 sns.kdeplot(y_predicted, hist=False, color="b", label="Fitted Values" , ax=ax1)
 
 plt.show()
-plt.close()
+
+
+OR
+
+
+sns.histplot(data, kde=True, color='blue', stat='density', bins=10)
