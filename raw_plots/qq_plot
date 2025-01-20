@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+from scipy import stats
+
+qq_plot = stats.probplot(df['column_name'], dist='norm', plot=plt)
