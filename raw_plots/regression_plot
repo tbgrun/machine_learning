@@ -1,0 +1,7 @@
+import seaborn as sns
+
+width = 12
+height = 10
+plt.figure(figsize=(width, height))
+sns.regplot(x='column_name', y='column_name', data=df)
+plt.ylim(0,)
