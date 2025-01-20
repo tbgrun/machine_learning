@@ -2,3 +2,5 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 qq_plot = stats.probplot(df['column_name'], dist='norm', plot=plt)
+qq[1]
+    returns slope, intercept, and correlation (r). slope close to 1 and intercept close to 0 indicate normal distribution, r close to 1 indicate high correlation between theoretical and true quartiles
