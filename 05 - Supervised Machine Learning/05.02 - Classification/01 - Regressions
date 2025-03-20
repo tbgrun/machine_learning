@@ -78,12 +78,6 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 
 ### 4. Choosing the Correct Model
 
-#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md)
-- **Best for**: Binary classification problems, not strictly regression.
-- **Pros**: Good for binary outcomes.
-- **Cons**: Assumes a linear relationship between the features and the log-odds of the outcome.
-
-
 #### 4.1 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.02%20-%20Classification/01.01%20-%20Logistic%20Regression.md)
 - **Best for**: Binary classification problems, not strictly regression.
 - **Pros**: Good for binary outcomes.
