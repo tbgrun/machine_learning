@@ -88,27 +88,22 @@ Data cleaning is essential for ensuring that the dataset is ready for model trai
 - **Pros**: Captures non-linear relationships.
 - **Cons**: Prone to overfitting with high-degree polynomials.
 
-#### 4.3 [Logistic Regression](https://github.com/tbgrun/machine_learning/blob/main/05%20-%20Supervised%20Machine%20Learning/05.01%20-%20Predictive/01.03%20-%20Logistic%20Regression.md)
-- **Best for**: Binary classification problems, not strictly regression.
-- **Pros**: Good for binary outcomes.
-- **Cons**: Assumes a linear relationship between the features and the log-odds of the outcome.
-
-#### 4.4 Decision Trees
+#### 4.3 Decision Trees
 - **Best for**: Non-linear relationships, capturing interactions between variables.
 - **Pros**: Easy to interpret, handles both numeric and categorical data.
 - **Cons**: Prone to overfitting, especially deep trees.
 
-#### 4.5 Random Forests
+#### 4.4 Random Forests
 - **Best for**: Reducing overfitting, improving accuracy over decision trees.
 - **Pros**: Robust, handles large datasets well.
 - **Cons**: Less interpretable, computationally expensive.
 
-#### 4.6 Support Vector Machines (SVM)
+#### 4.5 Support Vector Machines (SVM)
 - **Best for**: High-dimensional data, non-linear decision boundaries (with kernel trick).
 - **Pros**: Effective in high dimensions.
 - **Cons**: Requires careful parameter tuning, less interpretable.
 
-#### 4.7 Ensemble Methods (Bagging, Boosting, Stacking)
+#### 4.6 Ensemble Methods (Bagging, Boosting, Stacking)
 - **Bagging (e.g., Random Forest)**: Reduces variance by averaging multiple models.
 - **Boosting (e.g., XGBoost)**: Reduces bias by sequentially correcting errors of previous models.
 - **Stacking**: Combines multiple models for a final prediction.
